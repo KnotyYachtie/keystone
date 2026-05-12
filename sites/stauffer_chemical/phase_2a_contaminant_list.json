@@ -1,0 +1,32 @@
+{
+  "discovery_phase": 2,
+  "sub_phase": "2a_contaminant_list",
+  "site_name": "Stauffer Chemical Co. (Tarpon Springs)",
+  "epa_id": "FLD010596013",
+  "date_extracted": "2026-05-12",
+  
+  "contaminant_inventory": {
+    "source": "EPA Contaminant List page",
+    "source_url": "https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0400578",
+    "total_unique_contaminants": 28,
+    "total_rows": 62,
+    "operable_unit": "OPERABLE UNIT 1 (01)",
+    "media_types": ["Soil", "Groundwater", "Sediment", "Surface Water", "Air", "Other"],
+    
+    "contaminants_by_media": {
+      "Soil": ["9H-FLUORENE", "ALUMINUM", "ANTIMONY", "ARSENIC", "BENZO(B)FLUORANTHENE", "BENZO[A]ANTHRACENE", "BENZO[A]PYRENE", "BERYLLIUM", "CADMIUM", "CHRYSENE", "DIBENZO(A,H)ANTHRACENE", "FLUORANTHENE", "FLUORIDE", "INDENO(1,2,3-CD)PYRENE", "IRON", "MERCURY", "NICKEL", "PYRENE", "SILVER", "THALLIUM", "THALLIUM COMPOUNDS", "ZINC"],
+      "Groundwater": ["ANTIMONY", "ARSENIC", "BERYLLIUM", "RADIUM-226", "THALLIUM"],
+      "Sediment": ["ALUMINUM", "ARSENIC", "BIS(2-ETHYLHEXYL)PHTHALATE", "CADMIUM", "COPPER", "IRON", "MERCURY", "NICKEL", "PHOSPHORUS (P4)", "PYRENE", "ZINC"],
+      "Surface Water": ["ALUMINUM", "ARSENIC", "COPPER", "IRON", "MERCURY", "THALLIUM COMPOUNDS"],
+      "Air": ["ASBESTOS", "PHOSPHORUS (P4)"],
+      "Other": ["ALUMINUM", "ANTIMONY", "ARSENIC", "BIS(2-ETHYLHEXYL)PHTHALATE", "CADMIUM", "CHRYSENE", "COPPER", "FLUORANTHENE", "IRON", "MERCURY", "NICKEL", "PHENANTHRENE", "PHOSPHORUS (P4)", "SILVER", "THALLIUM", "ZINC"]
+    },
+    
+    "signature_contaminants": {
+      "elemental_phosphorus": "PHOSPHORUS (P4) — found in Other, Air, Sediment. Key contaminant from phosphorus production process.",
+      "radium_226": "RADIUM-226 — found in Groundwater. Technologically Enhanced Naturally Occurring Radioactive Material (TENORM) from phosphate ore processing.",
+      "arsenic": "ARSENIC — found in Soil, Groundwater, Surface Water, Other, Sediment (5 media — broadest distribution)",
+      "heavy_metals": ["ANTIMONY", "BERYLLIUM", "CADMIUM", "MERCURY", "NICKEL", "SILVER", "THALLIUM", "ZINC"]
+    }
+  }
+}

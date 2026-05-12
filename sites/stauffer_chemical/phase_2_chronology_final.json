@@ -1,0 +1,199 @@
+{
+  "discovery_phase": 2,
+  "phase_name": "Chronology Assessment",
+  "status": "complete",
+  "site_name": "Stauffer Chemical Co. (Tarpon Springs)",
+  "epa_id": "FLD010596013",
+  "sems_site_id": "0400578",
+  "date_completed": "2026-05-12",
+  "sources_consulted": [
+    "EPA SEMS Site Profile (cumulis.epa.gov, id=0400578)",
+    "EPA Cleanup Activities page",
+    "EPA Health & Environment page",
+    "EPA Contaminant List page",
+    "EPA Cleanup Progress page (schedule & milestones)",
+    "EPA Key Documents list (8 documents)",
+    "Third FYR (2025) — protectiveness statement + monitoring tables",
+    "Second FYR (2020) — protectiveness statement + monitoring tables",
+    "First FYR (2015) — protectiveness statement"
+  ],
+
+  "master_chronology": [
+    {"date": "1947", "event": "Victor Chemical Company begins operating elemental phosphorus production facility from phosphate ore", "category": "operations", "source": "cleanup_activities"},
+    {"date": "1947-1981", "event": "Facility operated by Victor Chemical Company, later Stauffer Chemical Company. Facility and wastewater ponds on South parcel; slag processing on North parcel.", "category": "operations", "source": "cleanup_activities"},
+    {"date": "1981", "event": "Stauffer Chemical Company ceases operations", "category": "operations", "source": "cleanup_activities"},
+    {"date": "1983", "event": "Stauffer Chemical Company decommissions and dismantles facilities", "category": "decommissioning", "source": "cleanup_activities"},
+    {"date": "1987-06-30", "event": "Initial Assessment Completed", "category": "regulatory", "source": "cleanup_progress_milestones"},
+    {"date": "1992-02-07", "event": "Site proposed to the National Priorities List", "category": "regulatory", "source": "cleanup_progress_milestones"},
+    {"date": "1992-07-28", "event": "Remedial Investigation started; Combined RI/FS begins; First Administrative Order of Consent issued", "category": "regulatory", "source": "cleanup_progress_milestones"},
+    {"date": "1994-05-31", "event": "Site finalized on the National Priorities List (Final NPL)", "category": "regulatory", "source": "cleanup_progress_milestones"},
+    {"date": "1997-03-04", "event": "Second Administrative Order of Consent", "category": "enforcement", "source": "cleanup_progress_schedule"},
+    {"date": "1997-03-11", "event": "Removal action begins (EPA Oversight) — on-site phosphorus water removal", "category": "remediation", "source": "cleanup_progress_schedule"},
+    {"date": "1997", "event": "Stauffer Chemical Company forms Stauffer Management Company — current site owner and PRP", "category": "ownership", "source": "cleanup_activities"},
+    {"date": "1998-07-02", "event": "Record of Decision signed for OU-1; Final Remedy Selected; RI/FS completed", "category": "regulatory", "source": "cleanup_progress_milestones; key_documents"},
+    {"date": "1998-09-25", "event": "Removal action completed", "category": "remediation", "source": "cleanup_progress_schedule"},
+    {"date": "1999-06-01", "event": "First Explanation of Significant Differences (ESD) issued", "category": "regulatory", "source": "key_documents"},
+    {"date": "1999-07-06", "event": "Remedial Design begins (EPA Oversight)", "category": "remediation", "source": "cleanup_progress_schedule"},
+    {"date": "1999-08-16", "event": "Second ESD issued", "category": "regulatory", "source": "key_documents"},
+    {"date": "1999-09-02", "event": "Consent Decree (SITEWIDE)", "category": "enforcement", "source": "cleanup_progress_schedule"},
+    {"date": "2000-03-27", "event": "Third ESD issued", "category": "regulatory", "source": "key_documents"},
+    {"date": "2000-08-25", "event": "Third Administrative Order of Consent", "category": "enforcement", "source": "cleanup_progress_schedule"},
+    {"date": "2005-10-19", "event": "Consent Decree (OU-01)", "category": "enforcement", "source": "cleanup_progress_schedule"},
+    {"date": "2007-05-24", "event": "Fourth ESD issued", "category": "regulatory", "source": "key_documents"},
+    {"date": "2008-09-30", "event": "Remedial Design completed; Remedial Action begins (EPA Oversight)", "category": "remediation", "source": "cleanup_progress_schedule"},
+    {"date": "2010-2011", "event": "Major construction: excavation/consolidation of 220K+ cu yds; 2 caps (42 acres); groundwater cutoff wall (2,600+ ft); Meyers Cove restoration; sea wall (1,300+ ft); fencing", "category": "remediation", "source": "cleanup_activities"},
+    {"date": "2011-09-16", "event": "Remedial Action completed; Soil cleanup complete; Operations & Maintenance phase begins", "category": "remediation", "source": "cleanup_progress_schedule"},
+    {"date": "2015-04", "event": "First Five-Year Review published — OU-1 determined PROTECTIVE", "category": "regulatory", "source": "fyr_1"},
+    {"date": "2020-06-30", "event": "Second Five-Year Review published — OU-1 determined PROTECTIVE", "category": "regulatory", "source": "fyr_2"},
+    {"date": "2025-07-31", "event": "Third Five-Year Review published — OU-1 determined SHORT-TERM PROTECTIVE. Follow-up required: expanded surface water sampling due to gross alpha increases at SW-1 and MW-12-2", "category": "regulatory", "source": "fyr_3"},
+    {"date": "2027 (est. Jun-Aug)", "event": "OU-02 GROUNDWATER REMEDIATION: Combined RI/FS estimated to begin", "category": "planned", "source": "cleanup_progress_schedule"}
+  ],
+
+  "monitoring_chronology": {
+    "surficial_aquifer_monitoring": {
+      "wells": ["MW-93-1", "MW-93-5", "MW-12-2"],
+      "data_range": "1993 to 2024",
+      "frequency": "annual (per FYR data tables)",
+      "source": "fyr_3_monitoring_tables"
+    },
+    "upper_floridan_aquifer_monitoring": {
+      "wells": ["MW-02-F"],
+      "data_range": "1988 to 2024",
+      "frequency": "annual (per FYR data tables)",
+      "source": "fyr_3_monitoring_tables"
+    },
+    "surface_water_monitoring": {
+      "stations": ["SW-1"],
+      "data_range": "2012 to 2024",
+      "source": "fyr_2_and_fyr_3_tables",
+      "pending_expansion": "2025 FYR requires additional surface water sampling locations in Meyers Cove and Anclote River"
+    },
+    "o_and_m_start": "2011-09-16",
+    "o_and_m_status": "ongoing"
+  },
+
+  "ou_structure_confirmed": {
+    "OU-00": {
+      "name": "SITEWIDE",
+      "description": "Administrative/enforcement umbrella; includes FYRs and consent decrees"
+    },
+    "OU-01": {
+      "name": "OPERABLE UNIT 1",
+      "description": "Soil and source material remediation; includes consolidation, capping, groundwater cutoff wall",
+      "status": "Remedial Action Complete (2011); O&M ongoing",
+      "rod_date": "1998-07-02",
+      "esds": 4,
+      "fyr_protectiveness": "Short-term Protective (2025)"
+    },
+    "OU-02": {
+      "name": "GROUNDWATER REMEDIATION",
+      "description": "Groundwater remedy; not yet initiated",
+      "status": "RI/FS estimated Jun-Aug 2027",
+      "significance": "Separate groundwater OU explains Construction Complete = No"
+    }
+  },
+
+  "cross_reference_checks": [
+    {
+      "claim": "NPL listing year 1994",
+      "sources": ["cleanup_activities background", "cleanup_progress_milestones"],
+      "finding": "CONSISTENT — exact date confirmed as 1994-05-31"
+    },
+    {
+      "claim": "ROD issued 1998",
+      "sources": ["cleanup_activities", "cleanup_progress_milestones", "key_documents"],
+      "finding": "CONSISTENT — exact date 1998-07-02"
+    },
+    {
+      "claim": "Four ESDs 1999-2007",
+      "sources": ["cleanup_activities narrative", "key_documents list"],
+      "finding": "CONSISTENT — 4 ESDs confirmed: 1999-06-01, 1999-08-16, 2000-03-27, 2007-05-24. Three in 1999-2000, one in 2007."
+    },
+    {
+      "claim": "Construction activities 2010-2011",
+      "sources": ["cleanup_activities narrative", "cleanup_progress_schedule"],
+      "finding": "PARTIALLY INCONSISTENT — Cleanup Activities page says '2010-2011' for major physical construction, but Cleanup Progress schedule shows Remedial Action started 2008-09-30. The 2010-2011 range likely refers to the peak construction period when the majority of physical work was executed (caps, cutoff wall, sea wall), not the full RA window."
+    },
+    {
+      "claim": "Second FYR published June 2020",
+      "sources": ["site_profile announcement", "fyr_document"],
+      "finding": "CONSISTENT — 2020-06-30. However, site profile announcement is stale: only references second FYR, not the 2025 third FYR."
+    },
+    {
+      "claim": "Site has single OU",
+      "sources": ["cleanup_activities narrative (implied)"],
+      "finding": "INCONSISTENT — Cleanup Activities page implies single OU soil remedy. Cleanup Progress schedule reveals separate OU-02 for groundwater remediation not yet initiated."
+    },
+    {
+      "claim": "Soil cleanup completed 2011",
+      "sources": ["cleanup_activities current status", "cleanup_progress_schedule"],
+      "finding": "CONSISTENT — RA completed 2011-09-16"
+    }
+  ],
+
+  "chronology_gaps_identified": [
+    {
+      "period": "1983-1987",
+      "duration": "~4 years",
+      "description": "Between facility dismantling (1983) and Initial Assessment (1987-06-30). Discovery and reporting process not documented in available records.",
+      "severity": "minor"
+    },
+    {
+      "period": "1987-1992",
+      "duration": "~5 years",
+      "description": "Between Initial Assessment (1987-06-30) and NPL proposal (1992-02-07) / RI start (1992-07-28). Pre-NPL assessment activities not detailed.",
+      "severity": "minor"
+    },
+    {
+      "period": "2001-2004",
+      "duration": "~4 years",
+      "description": "Gap in enforcement/remedy modification activity between third ESD (2000) and Consent Decree (2005). Remedial Design was ongoing during this period (1999-2008).",
+      "severity": "minor"
+    },
+    {
+      "period": "2011-2015",
+      "duration": "~4 years",
+      "description": "Between RA completion (2011-09-16) and first FYR (2015). O&M ongoing but no regulatory milestones documented. Monitoring data exists for this period per FYR tables.",
+      "severity": "minor"
+    }
+  ],
+
+  "contradictions_flagged": [
+    {
+      "id": "C1",
+      "description": "EPA site profile announcement references only second FYR (June 2020). Third FYR (July 2025) has been published but profile announcement not updated.",
+      "sources": ["Site profile home page", "FYR document list"],
+      "severity": "low",
+      "type": "stale_content"
+    },
+    {
+      "id": "C2",
+      "description": "Cleanup Activities page 'What Has Been Done' section dates major construction to 2010-2011. Cleanup Progress schedule shows Remedial Action start at 2008-09-30. The 2010-2011 reference likely describes peak construction, not full RA window.",
+      "sources": ["Cleanup Activities narrative", "Cleanup Progress schedule"],
+      "severity": "low",
+      "type": "imprecise_date_range"
+    },
+    {
+      "id": "C3",
+      "description": "Cleanup Activities page implies single-OU remedy (soil only). Cleanup Progress schedule and FYR documents confirm two-OU structure with OU-02 (Groundwater Remediation) pending.",
+      "sources": ["Cleanup Activities page", "Cleanup Progress schedule", "FYR documents"],
+      "severity": "medium",
+      "type": "incomplete_narrative"
+    }
+  ],
+
+  "administrative_notes": [
+    {
+      "note": "EPA site profile main page contains typo: 'Five-Year Reveiw' (should be 'Review')",
+      "source": "Site profile home page announcement box",
+      "type": "spelling_error",
+      "severity": "cosmetic"
+    },
+    {
+      "note": "Street address listed as '877 ANCLOTE BOULEVARD' on profile page but '877 Anclote Road' in Cleanup Activities background text. Likely the same road (Anclote Boulevard = Anclote Road).",
+      "source": "Site profile vs. Cleanup Activities",
+      "type": "address_variance",
+      "severity": "cosmetic"
+    }
+  ]
+}

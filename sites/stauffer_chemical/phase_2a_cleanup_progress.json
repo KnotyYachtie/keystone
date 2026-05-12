@@ -1,0 +1,95 @@
+{
+  "discovery_phase": 2,
+  "sub_phase": "2a_cleanup_progress_milestones",
+  "site_name": "Stauffer Chemical Co. (Tarpon Springs)",
+  "epa_id": "FLD010596013",
+  "date_extracted": "2026-05-12",
+  
+  "site_milestones": {
+    "source": "EPA Cleanup Progress page",
+    "source_url": "https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.schedule&id=0400578",
+    "confidence": "documented",
+
+    "milestones": [
+      {"milestone": "Initial Assessment Completed", "date": "1987-06-30"},
+      {"milestone": "Proposed to the National Priorities List", "date": "1992-02-07"},
+      {"milestone": "Finalized on the National Priorities List", "date": "1994-05-31"},
+      {"milestone": "Remedial Investigation Started", "date": "1992-07-28"},
+      {"milestone": "Final Remedy Selected", "date": "1998-07-02"},
+      {"milestone": "Remedial Action Started", "date": "2008-09-30"},
+      {"milestone": "Construction Completed", "date": "Not Yet Achieved"},
+      {"milestone": "Deleted from National Priorities List", "date": "Not Yet Achieved"},
+      {"milestone": "Most Recent Five-Year Review", "date": "2025-07-31"},
+      {"milestone": "Achieved Sitewide Ready for Anticipated Reuse", "date": "Not Yet Achieved"}
+    ],
+
+    "notable_intervals": {
+      "initial_assessment_to_npl_proposal": "1987-06-30 to 1992-02-07 (4.6 years)",
+      "npl_proposal_to_finalization": "1992-02-07 to 1994-05-31 (2.3 years)",
+      "ri_start_to_rod": "1992-07-28 to 1998-07-02 (6.0 years)",
+      "rod_to_remedial_action_start": "1998-07-02 to 2008-09-30 (10.2 years)",
+      "remedial_action_duration": "2008-09-30 to 2011-09-16 (3.0 years)",
+      "o_and_m_duration_to_date": "2011-09-16 to present (14.7+ years)"
+    }
+  },
+
+  "operable_units": {
+    "source": "EPA Cleanup Progress – Schedule by Operable Unit",
+    
+    "ou_structure": [
+      {
+        "ou_id": "00",
+        "ou_name": "SITEWIDE",
+        "events": [
+          {"event": "Administrative Order of Consent", "date": "1992-07-28"},
+          {"event": "Administrative Order of Consent", "date": "1997-03-04"},
+          {"event": "Consent Decree", "date": "1999-09-02"},
+          {"event": "Administrative Order of Consent", "date": "2000-08-25"},
+          {"event": "Five-Year Review", "date": "2015-05-04"},
+          {"event": "Five-Year Review", "date": "2020-06-30"},
+          {"event": "Five-Year Review", "date": "2025-07-31"}
+        ]
+      },
+      {
+        "ou_id": "01",
+        "ou_name": "OPERABLE UNIT 1",
+        "events": [
+          {"event": "Combined RI/FS (EPA Oversight)", "start": "1992-07-28", "completion": "1998-07-02"},
+          {"event": "Consent Decree", "date": "2005-10-19"},
+          {"event": "Removal (EPA Oversight)", "start": "1997-03-11", "completion": "1998-09-25"},
+          {"event": "Record of Decision", "date": "1998-07-02"},
+          {"event": "Explanation of Significant Differences", "date": "2007-05-24"},
+          {"event": "Remedial Design (EPA Oversight)", "start": "1999-07-06", "completion": "2008-09-30"},
+          {"event": "Remedial Action (EPA Oversight)", "start": "2008-09-30", "completion": "2011-09-16"},
+          {"event": "Operation and Maintenance (EPA Oversight)", "start": "2011-09-16", "completion": null}
+        ]
+      },
+      {
+        "ou_id": "02",
+        "ou_name": "GROUNDWATER REMEDIATION",
+        "events": [
+          {"event": "Combined RI/FS", "start": "Estimated Jun-Aug 2027", "completion": null}
+        ],
+        "status": "not_yet_initiated",
+        "significance": "CRITICAL FINDING — Groundwater remediation is a separate OU that has not yet entered investigation phase. This explains Construction Complete = No. RI/FS estimated to begin June-August 2027, approximately 30 years after ROD for OU 01."
+      }
+    ]
+  },
+
+  "structural_findings": {
+    "ou_separation": "Groundwater remediation was separated into OU 02, distinct from OU 01 soil remedy. OU 01 soil cleanup is complete (2011); OU 02 groundwater investigation has not yet begun.",
+    "construction_complete_rationale": "Construction Complete = No because OU 02 groundwater remedy has not been designed or constructed. This is NOT a deficiency in OU 01 completion — it reflects the site-wide milestone requirement.",
+    "npl_retention_rationale": "Site remains on NPL because OU 02 groundwater remedy is pending. Deletion requires all OUs to achieve cleanup objectives.",
+    "design_phase_duration": "Remedial Design for OU 01 took 9.1 years (1999-2008), an unusually long design phase that warrants investigation.",
+    "ri_fs_duration": "Combined RI/FS for OU 01 took 6.0 years (1992-1998), which is within typical range for complex sites.",
+    "removal_action": "A removal action was conducted 1997-1998 during the RI/FS, removing on-site phosphorus water."
+  },
+
+  "fyr_cycle_completeness": {
+    "fyr_1": {"date": "2015-05-04", "years_post_ra_start": 6.6, "years_post_ra_completion": 3.6},
+    "fyr_2": {"date": "2020-06-30", "years_post_ra_start": 11.8, "years_post_ra_completion": 8.8},
+    "fyr_3": {"date": "2025-07-31", "years_post_ra_start": 16.8, "years_post_ra_completion": 13.8},
+    "fyr_4_expected": "2030 (per 5-year statutory cycle)",
+    "status": "Compliant — FYRs at 5-year intervals (2015, 2020, 2025)"
+  }
+}

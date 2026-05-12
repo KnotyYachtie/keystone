@@ -1,0 +1,230 @@
+{
+  "discovery_phase": 1,
+  "phase_name": "Repository Discovery",
+  "site_name": "Stauffer Chemical Co. (Tarpon Springs)",
+  "epa_id": "FLD010596013",
+  "date_extracted": "2026-05-12",
+  "sems_site_id": "0400578",
+  
+  "identification": {
+    "site_name_official": "STAUFFER CHEMICAL CO. (TARPON SPRINGS)",
+    "alternate_name": "STAUFFER CHEMICAL COMPANY",
+    "epa_id": "FLD010596013",
+    "npl_status": "Final NPL",
+    "city": "TARPON SPRINGS",
+    "county": "PINELLAS",
+    "state": "FL",
+    "epa_region": "04",
+    "congressional_district": "09",
+    "street_address": "877 ANCLOTE BOULEVARD",
+    "zip": "34689",
+    "site_size_acres": 130
+  },
+
+  "repository_inventory": {
+    "epa_sems_site_search": {
+      "url": "https://cumulis.epa.gov/supercpad/cursites/srchsites.cfm",
+      "search_results_url": "https://cumulis.epa.gov/supercpad/cursites/srchrslt.cfm?start=1",
+      "status": "accessible",
+      "site_listed": true,
+      "notes": "Site found via progressive retrieval: All Sites + partial name 'Stauffer'. Failed with site name+state and city+state combined queries."
+    },
+    "epa_site_profile": {
+      "url": "https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0400578&msspp=med",
+      "status": "accessible",
+      "notes": "Full profile page with contacts, background, and site data. Sidebar links to Cleanup Activities, Site Documents, Health & Environment, Map."
+    },
+    "epa_cleanup_activities": {
+      "url": "https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0400578",
+      "status": "accessible",
+      "sections_available": [
+        "Background",
+        "What Has Been Done to Clean Up the Site",
+        "What Is the Current Site Status",
+        "Activity and Use Limitations",
+        "Enforcement Information",
+        "Operable Units",
+        "Cleanup Progress"
+      ]
+    },
+    "epa_site_documents": {
+      "url": "https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0400578 (sub-page)",
+      "key_documents_url": "https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.scs&id=0400578&doc=Y&colid=70164&region=04&type=SC",
+      "status": "accessible",
+      "key_documents_count": 8,
+      "publicly_available_documents_count": 9,
+      "administrative_records": "none_published"
+    },
+    "public_info_repository": {
+      "name": "Tarpon Springs Public Library",
+      "address": "138 East Lemon Street, Tarpon Springs, Florida 34689",
+      "status": "physical_location_only"
+    },
+    "epa_echo": {
+      "url": "https://echo.epa.gov/facilities/facility-search",
+      "status": "authentication_required",
+      "notes": "SEMS-filtered results require login. Facility search gated behind SAML authentication."
+    },
+    "federal_register": {
+      "url": "https://www.federalregister.gov/documents/search",
+      "status": "not_found",
+      "notes": "No NPL listing entries found for Stauffer Tarpon Springs in Federal Register search."
+    },
+    "epa_data_api": {
+      "url": "https://data.epa.gov/efservice/SEMS_SITES/STATE_CODE/FL/JSON",
+      "status": "unavailable",
+      "notes": "Returned 'The table is not available' error. API endpoint appears deprecated."
+    }
+  },
+
+  "document_inventory": {
+    "key_documents": [
+      {
+        "date": "2025-07-31",
+        "title": "THIRD FIVE-YEAR REVIEW REPORT FOR STAUFFER CHEMICAL CO. (TARPON SPRINGS) SUPERFUND SITE, PINELLAS COUNTY, FLORIDA",
+        "doc_id": "11226031",
+        "pages": 116,
+        "size_mb": 22.98,
+        "type": "five_year_review"
+      },
+      {
+        "date": "2020-06-30",
+        "title": "SECOND FIVE YEAR REVIEW REPORT FOR STAUFFER CHEMICAL CO. (TARPON SPRINGS), TARPON SPRINGS, PINELLAS COUNTY, FLORIDA",
+        "doc_id": "11150502",
+        "pages": 71,
+        "size_mb": 24.1,
+        "type": "five_year_review"
+      },
+      {
+        "date": "2015-05-04",
+        "title": "FIRST FIVE YEAR REVIEW REPORT FOR STAUFFER CHEMICAL CO. (TARPON SPRINGS), TARPON SPRINGS, PINELLAS COUNTY, FLORIDA",
+        "doc_id": "10989976",
+        "pages": 109,
+        "size_mb": 17.32,
+        "type": "five_year_review"
+      },
+      {
+        "date": "2007-05-24",
+        "title": "EXPLANATION OF SIGNIFICANT DIFFERENCES FACT SHEET, STAUFFER CHEMICAL SUPERFUND SITE, TARPON SPRINGS, PINELLAS COUNTY, FLORIDA",
+        "doc_id": "10491125",
+        "pages": 8,
+        "size_kb": 445.38,
+        "type": "explanation_of_significant_differences"
+      },
+      {
+        "date": "2000-03-27",
+        "title": "U.S. EPA REGION IV, EXPLANATION OF SIGNIFICANT DIFFERENCE SUPERFUND FACT SHEET",
+        "doc_id": "10015797",
+        "pages": 3,
+        "size_kb": 224.67,
+        "type": "explanation_of_significant_differences"
+      },
+      {
+        "date": "1999-08-16",
+        "title": "EXPLANATION OF SIGNIFICANT DIFFERENCE SUPERFUND FACT SHEET, STAUFFER CHEMICAL COMPANY SITE, TARPON SPRINGS, PINELLAS COUNTY, FLORIDA",
+        "doc_id": "29376",
+        "pages": 6,
+        "size_kb": 274.35,
+        "type": "explanation_of_significant_differences"
+      },
+      {
+        "date": "1999-06-01",
+        "title": "EXPLANATION OF SIGNIFICANT DIFFERENCE SUPERFUND FACT SHEET",
+        "doc_id": "10013782",
+        "pages": 5,
+        "size_kb": 213.7,
+        "type": "explanation_of_significant_differences"
+      },
+      {
+        "date": "1998-07-02",
+        "title": "RECORD OF DECISION, THE DECISION SUMMARY OPERABLE UNIT 1, STAUFFER CHEMICAL TARPON SPRINGS, PINELLAS COUNTY, FLORIDA",
+        "doc_id": "8555",
+        "pages": 77,
+        "size_mb": 3.73,
+        "type": "record_of_decision"
+      }
+    ],
+    "publicly_available_documents": "9 documents — not yet inventoried (Phase 2)"
+  },
+
+  "chronology_coverage_initial": {
+    "earliest_document": "1998-07-02",
+    "latest_document": "2025-07-31",
+    "document_span_years": 27,
+    "documents_by_type": {
+      "record_of_decision": 1,
+      "explanation_of_significant_differences": 4,
+      "five_year_review": 3
+    }
+  },
+
+  "repository_friction_log": [
+    {
+      "repository": "EPA SEMS Site Search (cumulis.epa.gov)",
+      "issue": "Multi-parameter queries (Site Name + State, City + State) returned 0 results",
+      "resolution": "Progressive retrieval with single-field partial-name search succeeded",
+      "impact": "Delayed initial discovery; non-blocking once progressive strategy was applied"
+    },
+    {
+      "repository": "EPA ECHO (echo.epa.gov)",
+      "issue": "SEMS-filtered search requires SAML authentication",
+      "resolution": "Not resolved; access gated behind login",
+      "impact": "ECHO SEMS data unavailable without authenticated session"
+    },
+    {
+      "repository": "EPA Data API (data.epa.gov)",
+      "issue": "SEMS_SITES/STATE_CODE/FL endpoint returned 'The table is not available'",
+      "resolution": "Not resolved; API appears deprecated",
+      "impact": "Cannot programmatically query SEMS via REST API"
+    },
+    {
+      "repository": "Federal Register",
+      "issue": "No NPL listing entries found for Stauffer Tarpon Springs",
+      "resolution": "Not resolved; may indicate site was listed via direct EPA action rather than FR publication",
+      "impact": "Minor; NPL listing date sourced from site profile instead"
+    }
+  ],
+
+  "sources": [
+    {
+      "repository": "EPA SEMS Site Profile",
+      "url": "https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0400578&msspp=med",
+      "date_accessed": "2026-05-12",
+      "confidence": "documented"
+    },
+    {
+      "repository": "EPA Cleanup Activities",
+      "url": "https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0400578",
+      "date_accessed": "2026-05-12",
+      "confidence": "documented"
+    },
+    {
+      "repository": "EPA Site Documents & Data",
+      "url": "https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0400578",
+      "date_accessed": "2026-05-12",
+      "confidence": "documented"
+    },
+    {
+      "repository": "EPA Key Documents",
+      "url": "https://cumulis.epa.gov/supercpad/SiteProfiles/index.cfm?fuseaction=second.scs&id=0400578&doc=Y&colid=70164&region=04&type=SC",
+      "date_accessed": "2026-05-12",
+      "confidence": "documented"
+    }
+  ],
+
+  "unresolved": [
+    "Publicly Available Documents (9) not yet inventoried",
+    "Health & Environment page not yet accessed",
+    "Cleanup Progress page not yet accessed",
+    "GIS/Map data not yet accessed",
+    "View Site on Map not yet accessed",
+    "Enforcement Information details not yet extracted",
+    "Operable Units details not yet extracted",
+    "EPA ECHO facility data inaccessible (login required)",
+    "FDEP state-level records not yet queried",
+    "Parcel/property appraiser records not yet queried"
+  ],
+
+  "phase_1_status": "complete_pending_followups",
+  "ready_for_phase_2": true
+}

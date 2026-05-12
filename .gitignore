@@ -141,3 +141,29 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Nested upstream repositories (tracked separately via their own remotes)
+hermes-agent/
+hermes-webui/
+
+# Local scratch / transient outputs
+scratch/
+logs/
+exports/
+tmp/
+temp/

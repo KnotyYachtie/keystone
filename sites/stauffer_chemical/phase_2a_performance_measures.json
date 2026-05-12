@@ -1,0 +1,55 @@
+{
+  "discovery_phase": 2,
+  "phase_name": "Chronology Assessment",
+  "sub_phase": "2a_performance_measures_health",
+  "site_name": "Stauffer Chemical Co. (Tarpon Springs)",
+  "epa_id": "FLD010596013",
+  "date_extracted": "2026-05-12",
+  
+  "performance_measures": {
+    "source": "EPA Health & Environment page",
+    "source_url": "https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0400578",
+    "confidence": "documented",
+    
+    "human_exposure_under_control": {
+      "value": "Yes",
+      "interpretation": "No unacceptable human exposure pathways currently exist across the entire site",
+      "notes": "Soil cleanup completed; groundwater contamination remains within site boundary but does not affect nearby residences or businesses"
+    },
+    "groundwater_migration_under_control": {
+      "value": "Yes",
+      "interpretation": "Migration of contaminated groundwater is stabilized; no unacceptable discharge to surface water; monitoring confirms containment",
+      "notes": "Deed restrictions prohibit groundwater use at the site"
+    },
+    "construction_complete": {
+      "value": "No",
+      "interpretation": "Physical construction is not complete OR actions are still needed to address contamination",
+      "notes": "Notable: despite soil cleanup completed in 2011, Construction Complete remains 'No'. This likely reflects ongoing groundwater remedy requirements."
+    },
+    "sitewide_ready_for_anticipated_use": {
+      "value": "No",
+      "interpretation": "One or more of: cleanup goals not fully achieved, land-use restrictions not fully in place, or Construction Complete not achieved",
+      "notes": "Expected given Construction Complete = No"
+    }
+  },
+
+  "health_environment_risk_summary": {
+    "source": "EPA Health & Environment — What Are the Risks section",
+    "soil_status": "Soil cleanup completed; soil no longer poses potential threat to future site users. Soil cleanup has helped improve groundwater quality.",
+    "groundwater_status": "Some groundwater contamination remains within the site boundary, but does not affect nearby residences or businesses. Deed restrictions prohibit groundwater use at the site.",
+    "fyr_reference": "Second Five Year Review (2020)",
+    "monitoring_confirmation": "EPA will conduct monitoring to confirm that affected groundwater remains in the original area of contamination"
+  },
+
+  "contaminant_list": {
+    "url_available": true,
+    "link_text": "View a full list of contaminants of concern for this site",
+    "status": "not_yet_accessed"
+  },
+
+  "pending_confirmation": [
+    "Why Construction Complete = No despite soil remedy completion in 2011 — likely due to groundwater O&M phase",
+    "Contaminant list with concentrations and media",
+    "NPL listing exact date"
+  ]
+}

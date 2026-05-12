@@ -1,0 +1,82 @@
+{
+  "discovery_phase": 2,
+  "sub_phase": "2b_five_year_review_determinations",
+  "site_name": "Stauffer Chemical Co. (Tarpon Springs)",
+  "epa_id": "FLD010596013",
+  "date_extracted": "2026-05-12",
+  
+  "five_year_reviews": {
+    "fyr_1": {
+      "date": "2015-04",
+      "doc_id": "10989976",
+      "ou": "OU-1",
+      "protectiveness_determination": "Protective",
+      "statement": "The remedy at OU-1 is protective of human health and the environment because remedial activities for contaminated soil and source materials have adequately addressed all exposure pathways that could result in unacceptable risks to human health and the environment.",
+      "pdf_url": "https://semspub.epa.gov/work/04/10989976.pdf",
+      "pdf_size_mb": 17.32,
+      "pages": 109,
+      "status": "accessible",
+      "key_tables": ["Chronology of Site Events", "OU-1 Soil Cleanup Goals", "Annual O&M Costs", "Monitoring Data"]
+    },
+    
+    "fyr_2": {
+      "date": "2020-06-30",
+      "doc_id": "11150502",
+      "ou": "OU-1",
+      "protectiveness_determination": "Protective",
+      "statement": "The remedy at OU-1 is protective of human health and the environment because the remedial activities for contaminated soil and source materials have adequately addressed all exposure pathways that could potentially result in unacceptable risks to human health and the environment.",
+      "pdf_url": "https://semspub.epa.gov/work/04/11150502.pdf",
+      "pdf_size_mb": 24.1,
+      "pages": 71,
+      "status": "accessible",
+      "key_tables": [
+        "Groundwater Monitoring Wells with MCL Exceedances of OU-1 COCs: 2012-2018",
+        "Surficial Aquifer Monitoring Wells - Groundwater Analytical Results",
+        "Upper Floridan Aquifer Monitoring Wells - Groundwater Analytical Results",
+        "Surface Water Sampling Data, 2016-2018",
+        "Surface Water Monitoring Results, 2012-2015"
+      ]
+    },
+    
+    "fyr_3": {
+      "date": "2025-07-31",
+      "doc_id": "11226031",
+      "ou": "OU-1",
+      "protectiveness_determination": "Short-term Protective",
+      "statement": "The remedy at OU-1 currently protects human health and the environment because consolidation and capping of contaminated soil prevents direct exposure to site-related soil contamination, and institutional controls are in place to protect the remedy and prevent exposure to site-related contamination. For the remedy to be protective over the long term, the following action needs to be taken: Routinely sample surface water at more locations throughout Meyers Cove and the Anclote River to determine if the recent increase in gross alpha in surface water (SW-1) and groundwater (MW-12-2) are isolated incidents and to confirm that OU-1 source control is preventing contaminant transport to groundwater and surface water.",
+      "pdf_url": "https://semspub.epa.gov/work/04/11226031.pdf",
+      "pdf_size_mb": 22.98,
+      "pages": 116,
+      "status": "accessible",
+      "follow_up_required": true,
+      "follow_up_action": "Routine surface water sampling at additional locations throughout Meyers Cove and the Anclote River to investigate gross alpha increases at SW-1 and MW-12-2",
+      "key_tables": [
+        "Exceedances of Groundwater Standards at MW-93-5 (Surficial Aquifer, 2020 to 2024)",
+        "Exceedances of Groundwater Standards (Upper Floridan Aquifer, 2020 to 2024)",
+        "Exceedances of Gross Alpha Surface Water Standards at SW-1 (2020 to 2024)",
+        "Surficial Aquifer Groundwater Sampling Results (2024)",
+        "Upper Floridan Aquifer Groundwater Sampling Results (2024)",
+        "Groundwater Sampling Results for Surficial Aquifer Well MW-93-1 (1993 to 2024)",
+        "Groundwater Sampling Results for Surficial Aquifer Well MW-93-5 (1993 to 2024)",
+        "Groundwater Sampling Results for Upper Floridan Aquifer Well MW-02-F (1988 to 2024)"
+      ]
+    }
+  },
+
+  "protectiveness_trajectory": {
+    "observation": "FYR protectiveness determination downgraded from 'Protective' (2015, 2020) to 'Short-term Protective' (2025)",
+    "cause": "Recent gross alpha increases detected in surface water (SW-1) and groundwater (MW-12-2)",
+    "required_action": "Expanded surface water sampling to determine whether gross alpha increases are isolated incidents or indicate contaminant transport beyond OU-1 source control",
+    "implications": "Pending investigation results could trigger remedy modifications or additional response actions. Represent a monitoring signal that warrants close tracking in the next FYR cycle.",
+    "confidence": "documented"
+  },
+
+  "monitoring_network_identified": {
+    "surficial_aquifer_wells": ["MW-93-1", "MW-93-5", "MW-12-2"],
+    "upper_floridan_aquifer_wells": ["MW-02-F"],
+    "surface_water_stations": ["SW-1"],
+    "surficial_data_range": "1993 to 2024",
+    "upper_floridan_data_range": "1988 to 2024",
+    "parameters_monitored": ["Gross alpha", "MCL exceedances of OU-1 COCs"]
+  }
+}

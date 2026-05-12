@@ -1,0 +1,245 @@
+{
+  "discovery_phase": 2,
+  "phase_name": "Chronology Assessment",
+  "site_name": "Stauffer Chemical Co. (Tarpon Springs)",
+  "epa_id": "FLD010596013",
+  "date_extracted": "2026-05-12",
+  "extraction_status": "in_progress",
+  
+  "regulatory_timeline": {
+    "source": "EPA Cleanup Activities page, cumulis.epa.gov/cursites/csitinfo.cfm?id=0400578",
+    "source_url": "https://cumulis.epa.gov/supercpad/cursites/csitinfo.cfm?id=0400578",
+    "confidence": "documented",
+    
+    "events": [
+      {
+        "date": "1947",
+        "precision": "year",
+        "event": "Victor Chemical Company began operating the phosphorus production facility",
+        "category": "operations"
+      },
+      {
+        "date": "1947-1981",
+        "precision": "range",
+        "event": "Facility operated by Victor Chemical Company, later Stauffer Chemical Company. Produced elemental phosphorus from phosphate ore.",
+        "category": "operations"
+      },
+      {
+        "date": "1981",
+        "precision": "year",
+        "event": "Stauffer Chemical Company ceased operations at the facility",
+        "category": "operations"
+      },
+      {
+        "date": "1983",
+        "precision": "year",
+        "event": "Stauffer Chemical Company decommissioned and dismantled the facilities",
+        "category": "decommissioning"
+      },
+      {
+        "date": "1994",
+        "precision": "year",
+        "event": "EPA listed the site on the National Priorities List (NPL). Exact listing date not yet confirmed from Federal Register.",
+        "category": "regulatory",
+        "flag": "exact_date_unconfirmed"
+      },
+      {
+        "date": "1997",
+        "precision": "year",
+        "event": "Stauffer Chemical Company formed Stauffer Management Company, which owns the site and is the potentially responsible party (PRP)",
+        "category": "ownership"
+      },
+      {
+        "date": "1997",
+        "precision": "year",
+        "event": "PRP removed on-site phosphorus water and disposed of it at an off-site facility",
+        "category": "remediation"
+      },
+      {
+        "date": "1998-07-02",
+        "precision": "exact",
+        "event": "EPA issued the Record of Decision (ROD) for Operable Unit 1 — the cleanup plan",
+        "category": "regulatory",
+        "doc_id": "8555",
+        "pages": 77
+      },
+      {
+        "date": "1999-06-01",
+        "precision": "exact",
+        "event": "First Explanation of Significant Differences (ESD) issued, modifying the cleanup plan",
+        "category": "regulatory",
+        "doc_id": "10013782"
+      },
+      {
+        "date": "1999-08-16",
+        "precision": "exact",
+        "event": "Second ESD issued",
+        "category": "regulatory",
+        "doc_id": "29376"
+      },
+      {
+        "date": "2000-03-27",
+        "precision": "exact",
+        "event": "Third ESD issued",
+        "category": "regulatory",
+        "doc_id": "10015797"
+      },
+      {
+        "date": "1999-2007",
+        "precision": "range",
+        "event": "EPA modified the cleanup plan through four ESDs. Remedy components: excavation, consolidation, capping, groundwater cutoff wall, institutional controls",
+        "category": "regulatory"
+      },
+      {
+        "date": "2007-05-24",
+        "precision": "exact",
+        "event": "Fourth ESD issued (ESD Fact Sheet)",
+        "category": "regulatory",
+        "doc_id": "10491125"
+      },
+      {
+        "date": "2010-2011",
+        "precision": "range",
+        "event": "PRP conducted major cleanup: excavated/consolidated 220,000+ cubic yards of contaminated material; installed two caps (42 acres); installed groundwater cutoff wall (2,600+ linear feet); restored Meyers Cove; constructed sea wall (1,300+ linear feet); installed fencing",
+        "category": "remediation"
+      },
+      {
+        "date": "2011",
+        "precision": "year",
+        "event": "Soil cleanup completed",
+        "category": "remediation"
+      },
+      {
+        "date": "2015-05-04",
+        "precision": "exact",
+        "event": "First Five-Year Review published. Protectiveness determination not yet extracted.",
+        "category": "regulatory",
+        "doc_id": "10989976"
+      },
+      {
+        "date": "2020-06-30",
+        "precision": "exact",
+        "event": "Second Five-Year Review published. Remedy determined protective of human health and the environment.",
+        "category": "regulatory",
+        "doc_id": "11150502"
+      },
+      {
+        "date": "2025-07-31",
+        "precision": "exact",
+        "event": "Third Five-Year Review published. Protectiveness determination not yet extracted.",
+        "category": "regulatory",
+        "doc_id": "11226031"
+      }
+    ]
+  },
+
+  "operational_history": {
+    "operating_period": "1947-1981",
+    "years_active": 34,
+    "original_operator": "Victor Chemical Company",
+    "later_operator": "Stauffer Chemical Company",
+    "decommissioning_year": 1983,
+    "production_type": "Elemental phosphorus from phosphate ore mined in Florida",
+    "site_parcels": {
+      "south_parcel": "Facility and wastewater ponds",
+      "north_parcel": "Slag processing area"
+    },
+    "current_owner": "Stauffer Management Company (formed 1997)",
+    "prp": "Stauffer Management Company"
+  },
+
+  "contaminant_profile": {
+    "source": "EPA Cleanup Activities Background section",
+    "soil_contaminants": [
+      "Elemental phosphorus",
+      "Arsenic",
+      "Antimony",
+      "Beryllium",
+      "Thallium",
+      "Radium-226"
+    ],
+    "groundwater_contaminants": "Some of the above contaminants also found in groundwater",
+    "affected_media": ["Soil", "Groundwater"],
+    "notes": "Detailed contaminant concentrations and plume extent not yet extracted — require ROD document review"
+  },
+
+  "remedy_components": {
+    "source": "EPA Cleanup Activities page",
+    "components": [
+      "Excavation of contaminated material exceeding residential cleanup standards",
+      "Consolidation of contaminated material in main pond area, slag area, and/or other on-site areas",
+      "Construction of cap meeting Florida Administrative Code Section 62-701.600.5(g) over consolidation area",
+      "Construction of groundwater cutoff wall to reduce contaminant migration from former wastewater ponds",
+      "Institutional controls: deed restrictions, land use ordinances, physical barriers, surficial aquifer water supply well permitting prohibitions"
+    ],
+    "physical_remedy_stats": {
+      "contaminated_material_excavated_cubic_yards": 220000,
+      "cap_area_acres": 42,
+      "caps_count": 2,
+      "groundwater_cutoff_wall_linear_feet": 2600,
+      "sea_wall_linear_feet": 1300,
+      "meyers_cove_restored": true,
+      "fencing_installed": true
+    },
+    "remedy_completion": "Soil cleanup completed 2011"
+  },
+
+  "institutional_controls": {
+    "status": "active",
+    "controls": [
+      "Deed restrictions prohibiting groundwater use at the site",
+      "Deed restrictions prohibiting future residential uses",
+      "Future industrial or commercial uses possible"
+    ],
+    "source": "EPA Cleanup Activities — Current Site Status section"
+  },
+
+  "current_status": {
+    "as_of_fyr": "2020 (Second FYR)",
+    "protectiveness": "Remedy is protective of human health and the environment",
+    "ongoing_activities": [
+      "Maintenance of grounds and capped areas",
+      "Groundwater monitoring"
+    ],
+    "construction_complete": "Inferred from 2011 soil cleanup; formal SEMS Construction Complete status: not yet confirmed from NPL list query"
+  },
+
+  "monitoring_continuity": {
+    "status": "active",
+    "type": "Groundwater monitoring",
+    "start_year": "not yet confirmed",
+    "frequency": "not yet confirmed",
+    "notes": "Cleanup Activities page states current activities include groundwater monitoring. Detailed monitoring data requires FYR document review."
+  },
+
+  "chronology_summary": {
+    "total_timeline_years": 78,
+    "earliest_event": "1947 (operations begin)",
+    "latest_event": "2025-07-31 (Third FYR)",
+    "phases": {
+      "operations": "1947-1981 (34 years)",
+      "decommissioning": "1983",
+      "pre_npl_gap": "1983-1994 (11 years between dismantling and NPL listing)",
+      "early_regulatory": "1994-1998 (NPL listing through ROD)",
+      "remedy_design": "1998-2010 (ROD through ESDs; pre-construction)",
+      "remedial_action": "2010-2011 (major construction)",
+      "post_construction": "2011-present (OM&M + FYRs)"
+    }
+  },
+
+  "pending_extractions": [
+    "Exact NPL listing date (month/day/year) from Federal Register or ROD document",
+    "First FYR (2015) protectiveness determination",
+    "Third FYR (2025) protectiveness determination",
+    "ROD detailed remedy selection and OU structure",
+    "ESD modification details for each of 4 ESDs",
+    "Groundwater monitoring: start date, well network, frequency, parameters, trends",
+    "SEMS Construction Complete status from NPL list",
+    "SEMS Human Exposure Under Control status from NPL list", 
+    "SEMS Groundwater Migration Under Control status from NPL list",
+    "Health & Environment page for exposure pathway data",
+    "Operable Units page for OU structure",
+    "Cleanup Progress page for milestone dates",
+    "Publicly Available Documents (9 docs) inventory"
+  ]
+}
