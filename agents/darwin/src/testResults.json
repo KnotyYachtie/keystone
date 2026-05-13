@@ -1,0 +1,496 @@
+{
+  "generated_at": "2026-05-13T02:20:53.851Z",
+  "extraction_summary": {
+    "totalObservations": 30,
+    "highConfidence": 29,
+    "mediumConfidence": 1,
+    "lowConfidence": 0
+  },
+  "primary_context": {
+    "states": [
+      "Florida",
+      "Georgia"
+    ],
+    "siteNames": [
+      "THIRD FIVE-YEAR REVIEW REPORT FOR STAUFFER CHEMICAL CO. (TARPON SPRINGS) SUPERFUND SITE",
+      "D FIVE-YEAR REVIEW REPORT FOR STAUFFER CHEMICAL CO. (TARPON SPRINGS) SUPERFUND SITE"
+    ],
+    "aliases": [
+      "STAUFFER CHEMICAL CO.",
+      "Stauffer Chemical Co.",
+      "STAUFFER CHEMICAL",
+      "Stauffer Chemical",
+      "TARPON SPRINGS",
+      "Tarpon Springs"
+    ],
+    "inferredDocumentTitle": "THIRD FIVE-YEAR REVIEW REPORT FOR STAUFFER CHEMICAL CO. (TARPON SPRINGS) SUPERFUND SITE PINELLAS COUNTY, FLORIDA AUGUST 2025 U.S. Environmental Protection Agency ------------------------------------------- Hunter Johnson, Acting Director Superfund & Emergency Management Division"
+  },
+  "canonical_entity_preview": {
+    "inferred_site_name": "THIRD FIVE-YEAR REVIEW REPORT FOR STAUFFER CHEMICAL CO. (TARPON SPRINGS) SUPERFUND SITE",
+    "inferred_aliases": [
+      "STAUFFER CHEMICAL CO.",
+      "Stauffer Chemical Co.",
+      "STAUFFER CHEMICAL",
+      "Stauffer Chemical",
+      "TARPON SPRINGS",
+      "Tarpon Springs"
+    ],
+    "inferred_state": "Florida",
+    "inferred_site_type": "superfund_site"
+  },
+  "ingestion_configuration": {
+    "minimum_observation_confidence": 0.7,
+    "primary_context_window_size": 12000,
+    "title_region_window_size": 2500,
+    "toc_region_window_size": 15000
+  },
+  "persisted_observation_count": 30,
+  "mission": {
+    "id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+    "title": "EPA SEMS Ingestion Test",
+    "description": "Testing first live external ingestion transaction.",
+    "status": "active",
+    "created_at": "2026-05-13T02:20:50.721966+00:00",
+    "updated_at": "2026-05-13T02:20:50.721966+00:00"
+  },
+  "artifacts": [
+    {
+      "id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_type": "epa_repository",
+      "source_url": "https://semspub.epa.gov/work/04/11226031.pdf",
+      "title": "EPA SEMS Repository",
+      "raw_content": "\n\nTHIRD FIVE-YEAR REVIEW REPORT FOR  \nSTAUFFER CHEMICAL CO. (TARPON SPRINGS) SUPERFUND SITE\nPINELLAS COUNTY, FLORIDA \nAUGUST 2025 \nPrepared by \nU.S. Environmental Protection Agency \nRegion 4 \nAtlanta, Georgia \n------------------------------------------- \nHunter Johnson, Acting Director   \nSuperfund & Emergency Management Division\n\nii \n \n \n \n \n \n \n \nThis Page Intentionally Left Blank \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n\niii \nTable of Contents\nLIST OF ABBREVIATIONS AND ACRONYMS................................................................................................v\nI. INTRODUCTION......................................................................................................................................1\nSite Background....................................................................................................................................1\nFIVE-YEAR REVIEW SUMMARY FORM...................................................................................................2\nII. RESPONSE ACTION SUMMARY .............................................................................................................. 5 \nBasis for Taking Action .......................................................................................................................... 5 \nResponse Actions .................................................................................................................................. 5 \nStatus of Implementation ..................................................................................................................... 7 \nInstitutional Control Review.................................................................................................................. 7 \nSystems Operations/Operation and Maintenance .............................................................................. 10 \nIII. PROGRESS SINCE THE PREVIOUS REVIEW .......................................................................................... 10 \nIV. FIVE-YEAR REVIEW PROCESS .............................................................................................................. 10 \nCommunity Notification, Community Involvement and Site Interviews ............................................. 10 \nData Review ........................................................................................................................................ 11 \nSite Inspection .................................................................................................................................... 17 \nV. TECHNICAL ASSESSMENT .................................................................................................................... 17 \nQUESTION A: Is the remedy functioning as intended by the decision documents? ............................ 17 \nQUESTION B: Are the exposure assumptions, toxicity data, cleanup levels and RAOs used at the time \nof the remedy selection still valid? ..................................................................................................... 19 \nQUESTION C: Has any other information come to light that could call into question the \nprotectiveness of the remedy? ........................................................................................................... 20 \nVI. ISSUES/RECOMMENDATIONS ............................................................................................................ 21 \n OTHER FINDINGS ................................................................................................................................ 21 \nVII. PROTECTIVENESS STATEMENT .......................................................................................................... 22 \nVIII. NEXT REVIEW ................................................................................................................................... 22 \nAPPENDIX A – REFERENCE LIST ............................................................................................................. A-1 \nAPPENDIX B – CURRENT SITE STATUS ................................................................................................... B-1 \nAPPENDIX C – SITE CHRONOLOGY ........................................................................................................ C-1 \nAPPENDIX D – HISTORICAL SITE FEATURES ........................................................................................... D-1 \nAPPENDIX E – INSTITUTIONAL CONTROLS ............................................................................................. E-1 \nAPPENDIX F – PUBLIC NOTICE ................................................................................................................ F-1\nAPPENDIX G – INTERVIEW FORMS ........................................................................................................ G-1\nAPPENDIX H – DATA REVIEW FIGURES AND TABLES ............................................................................. H-1\nAPPENDIX I – SITE INSPECTION CHECKLIST............................................................................................. I-1 \nAPPENDIX J – SITE INSPECTION PHOTOS ................................................................................................ J-1 \nAPPENDIX K – ARARS REVIEW ............................................................................................................... K-1\nAPPENDIX L - SCREENING-LEVEL RISK REVIEW ....................................................................................... L-1\n \nTables \n \nTable 1: OU-1 Soil Cleanup Goals .............................................................................................................. 6\nTable 2: Summary of Institutional Controls ............................................................................................... 8\nTable 3: Protectiveness Determination/Statement from the 2020 FYR Report ...................................... 10\nTable 4: Exceedances of Groundwater Standards at MW-93-5 (Surficial Aquifer, 2020 to 2024) ........... 13\n\niv\nTable 5: Exceedances of Groundwater Standards (Upper Floridan Aquifer, 2020 to 2024)....................14\nTable 6: Exceedances of Gross Alpha Surface Water Standards at SW-1 (2020 to 2024).Error! Bookmark \nnot defined.\nTable C-1: Site Chronology .................................................................................................................... C-1 \nTable H-1: Surficial Aquifer Groundwater Sampling Results (2024) ...................................................... H-3 \nTable H-2: Upper Floridan Aquifer Groundwater Sampling Results (2024) ........................................... H-4 \nTable H-3: Groundwater Sampling Results for Surficial Aquifer Well MW-93-1 (1993 to 2024) ........... H-5 \nTable H-4: Groundwater Sampling Results for Surficial Aquifer Well MW-93-5 (1993 to 2024) ........... H-6 \nTable H-5: Groundwater Sampling Results for Upper Floridan Aquifer Well MW-02-F (1988 to 2024) H-7 \nTable H-6: Groundwater Sampling Results for Upper Floridan Aquifer Well MW-03-8F (2012 to  \n2024)......................................................................................................................................................................H-8 \nTable H-7: Groundwater Sampling Results for Upper Floridan Aquifer Well MW-12-1 (2012 to          \n2024)......................................................................................................................................................................H-9 \nTable H-8: Groundwater Sampling Results for Upper Floridan Aquifer Well MW-12-2 (2012 to          \n2024)...................................................................................................................................................................H-10 \nTable H-9: Surface Water Sampling Results for SW-1 (2020 to 2024) ................................................. H-11 \nTable K-1: Summary of Soil ARARs Review ............................................................................................ K-1 \nFigures \n \nFigure 1: Site Vicinity Map ........................................................................................................................ 3\nFigure 2: Map of Current Site Features and Historical Source Areas ......................................................... 4\nFigure 3: Institutional Controls Map.........................................................................................................9\nFigure 4: Detailed Site Map ..................................................................................................................... 16\nFigure E-1: 2015 Declaration of Restrictive Covenants .......................................................................... E-1\nFigure H-1: Surficial Aquifer Groundwater Contours and Groundwater Flow (July 2024) ..................... H-1\nFigure H-2: Upper Floridan Aquifer Groundwater Contours and Groundwater Flow (July 2024) ......... H-2\n \n \n \n\nv \nLIST OF ABBREVIATIONS ANDACRONYMS\n \nAOC Administrative Order on Consent \nARAR     Applicable or Relevant and Appropriate Requirement \nBRA Baseline Risk Assessment\nCDConsent Decree \nCERCLA    Comprehensive Environmental Response, Compensation, and Liability Act \nCFR      Code of Federal Regulations \nCOC      Contaminant of Concern \nCPAH      Carcinogenic Polycyclic Aromatic Hydrocarbon \nEPA       U.S. Environmental Protection Agency \nESD      Explanation of Significant Differences \nFAC      Florida Administrative Code \nFDEP      Florida Department of Environmental Protection \nFS       Feasibility Study \nFYR      Five-Year Review \nGCTL      Groundwater Cleanup Target Level \nHQ      Hazard Quotient \nIC       Institutional Control \nMCL       Maximum Contaminant Level \nMDL      Method Detection Limit \nμg/L      Micrograms per Liter \nmg/dL     Micrograms per Deciliter   \nmg/kg     Milligrams per Kilogram \nmrem/yr   Millirem per Year \nMW      Monitoring Well \n",
+      "metadata": {
+        "source": "EPA",
+        "content_hash": "59bca3301f22794c0a75132cf9dc4800c97752db9ebb2c599e7e44526976c6d9",
+        "content_length": 103288,
+        "retrieval_status": 200,
+        "retrieval_timestamp": "2026-05-13T02:20:50.814Z"
+      },
+      "created_at": "2026-05-13T02:20:50.85767+00:00"
+    }
+  ],
+  "observations": [
+    {
+      "id": "f79fbd73-79ed-41fa-aa79-5433cd37c801",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "keyword_detection",
+      "value": "Detected EPA terminology in retrieved source.",
+      "confidence": 1,
+      "metadata": {
+        "keyword": "EPA",
+        "detection_type": "deterministic_keyword_match"
+      },
+      "created_at": "2026-05-13T02:20:50.946357+00:00"
+    },
+    {
+      "id": "3155520a-735c-4d8f-842d-28c862d9dfd2",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "keyword_detection",
+      "value": "Detected Superfund terminology in retrieved source.",
+      "confidence": 1,
+      "metadata": {
+        "keyword": "Superfund",
+        "detection_type": "deterministic_keyword_match"
+      },
+      "created_at": "2026-05-13T02:20:51.103136+00:00"
+    },
+    {
+      "id": "997eb2a5-8113-4af6-89d0-06626ce44dc3",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "date_detection",
+      "value": "Detected environmental chronology reference year: 2025",
+      "confidence": 0.95,
+      "metadata": {
+        "detected_year": "2025",
+        "extraction_type": "regex_year_detection"
+      },
+      "created_at": "2026-05-13T02:20:51.194188+00:00"
+    },
+    {
+      "id": "485d9cd0-8b30-401b-956a-a657258db49a",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "date_detection",
+      "value": "Detected environmental chronology reference year: 2020",
+      "confidence": 0.95,
+      "metadata": {
+        "detected_year": "2020",
+        "extraction_type": "regex_year_detection"
+      },
+      "created_at": "2026-05-13T02:20:51.272528+00:00"
+    },
+    {
+      "id": "66b95a67-e51b-44c5-834b-e5a058f6de7a",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "date_detection",
+      "value": "Detected environmental chronology reference year: 2024",
+      "confidence": 0.95,
+      "metadata": {
+        "detected_year": "2024",
+        "extraction_type": "regex_year_detection"
+      },
+      "created_at": "2026-05-13T02:20:51.354842+00:00"
+    },
+    {
+      "id": "069a2940-79f6-41ca-a716-1648be566c97",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "date_detection",
+      "value": "Detected environmental chronology reference year: 1993",
+      "confidence": 0.95,
+      "metadata": {
+        "detected_year": "1993",
+        "extraction_type": "regex_year_detection"
+      },
+      "created_at": "2026-05-13T02:20:51.432405+00:00"
+    },
+    {
+      "id": "981c263b-91be-4b3c-9652-d82e4024a506",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "date_detection",
+      "value": "Detected environmental chronology reference year: 1988",
+      "confidence": 0.95,
+      "metadata": {
+        "detected_year": "1988",
+        "extraction_type": "regex_year_detection"
+      },
+      "created_at": "2026-05-13T02:20:51.516568+00:00"
+    },
+    {
+      "id": "91fe1fd2-3643-4266-98ae-bab228cf1738",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "date_detection",
+      "value": "Detected environmental chronology reference year: 2012",
+      "confidence": 0.95,
+      "metadata": {
+        "detected_year": "2012",
+        "extraction_type": "regex_year_detection"
+      },
+      "created_at": "2026-05-13T02:20:51.629426+00:00"
+    },
+    {
+      "id": "e8806aba-0c98-47ed-a464-7d75e1933dea",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "date_detection",
+      "value": "Detected environmental chronology reference year: 2015",
+      "confidence": 0.95,
+      "metadata": {
+        "detected_year": "2015",
+        "extraction_type": "regex_year_detection"
+      },
+      "created_at": "2026-05-13T02:20:51.71385+00:00"
+    },
+    {
+      "id": "024fba5a-c54b-4612-a567-21873cf756bd",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "date_detection",
+      "value": "Detected environmental chronology reference year: 1947",
+      "confidence": 0.95,
+      "metadata": {
+        "detected_year": "1947",
+        "extraction_type": "regex_year_detection"
+      },
+      "created_at": "2026-05-13T02:20:51.791476+00:00"
+    },
+    {
+      "id": "06578d4b-a482-40bf-bdbd-cef66d7203bd",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "date_detection",
+      "value": "Detected environmental chronology reference year: 1960",
+      "confidence": 0.95,
+      "metadata": {
+        "detected_year": "1960",
+        "extraction_type": "regex_year_detection"
+      },
+      "created_at": "2026-05-13T02:20:51.871794+00:00"
+    },
+    {
+      "id": "17c15a87-62f3-4a1f-aad2-649a75ba8118",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "date_detection",
+      "value": "Detected environmental chronology reference year: 1981",
+      "confidence": 0.95,
+      "metadata": {
+        "detected_year": "1981",
+        "extraction_type": "regex_year_detection"
+      },
+      "created_at": "2026-05-13T02:20:51.952424+00:00"
+    },
+    {
+      "id": "9a40285e-c033-49ca-8bfc-6e7ca223b636",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "remediation_terminology",
+      "value": "Detected remediation terminology: groundwater",
+      "confidence": 0.97,
+      "metadata": {
+        "detected_term": "groundwater",
+        "extraction_type": "deterministic_term_match"
+      },
+      "created_at": "2026-05-13T02:20:52.031069+00:00"
+    },
+    {
+      "id": "8ab3eeee-4f8a-438b-bf8b-9de9f75bac1f",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "remediation_terminology",
+      "value": "Detected remediation terminology: soil",
+      "confidence": 0.97,
+      "metadata": {
+        "detected_term": "soil",
+        "extraction_type": "deterministic_term_match"
+      },
+      "created_at": "2026-05-13T02:20:52.154021+00:00"
+    },
+    {
+      "id": "03746f87-fbbf-4ce5-9db9-87c636b3400c",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "remediation_terminology",
+      "value": "Detected remediation terminology: contamination",
+      "confidence": 0.97,
+      "metadata": {
+        "detected_term": "contamination",
+        "extraction_type": "deterministic_term_match"
+      },
+      "created_at": "2026-05-13T02:20:52.23288+00:00"
+    },
+    {
+      "id": "382b8bfe-c98c-4a81-81ea-463906728cd3",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "remediation_terminology",
+      "value": "Detected remediation terminology: remediation",
+      "confidence": 0.97,
+      "metadata": {
+        "detected_term": "remediation",
+        "extraction_type": "deterministic_term_match"
+      },
+      "created_at": "2026-05-13T02:20:52.312486+00:00"
+    },
+    {
+      "id": "f99b6a4f-8088-4fa0-b499-9eaa566cef8d",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "remediation_terminology",
+      "value": "Detected remediation terminology: hazardous",
+      "confidence": 0.97,
+      "metadata": {
+        "detected_term": "hazardous",
+        "extraction_type": "deterministic_term_match"
+      },
+      "created_at": "2026-05-13T02:20:52.393594+00:00"
+    },
+    {
+      "id": "b1037c9e-94fb-4343-86f8-84c522a75806",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "remediation_terminology",
+      "value": "Detected remediation terminology: cleanup",
+      "confidence": 0.97,
+      "metadata": {
+        "detected_term": "cleanup",
+        "extraction_type": "deterministic_term_match"
+      },
+      "created_at": "2026-05-13T02:20:52.473477+00:00"
+    },
+    {
+      "id": "d289fa1c-93bd-4b8e-b955-f56b503ffddb",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "remediation_terminology",
+      "value": "Detected remediation terminology: monitoring",
+      "confidence": 0.97,
+      "metadata": {
+        "detected_term": "monitoring",
+        "extraction_type": "deterministic_term_match"
+      },
+      "created_at": "2026-05-13T02:20:52.548179+00:00"
+    },
+    {
+      "id": "81fa892d-f642-4d3a-aa57-72e41764088d",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "epa_identifier_detection",
+      "value": "Detected EPA/CERCLIS identifier: FLD010596013",
+      "confidence": 0.98,
+      "metadata": {
+        "identifier": "FLD010596013",
+        "extraction_type": "regex_identifier_detection"
+      },
+      "created_at": "2026-05-13T02:20:52.727448+00:00"
+    },
+    {
+      "id": "d698e52e-853b-4b81-889d-51d7cf411b91",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "state_detection",
+      "value": "Detected U.S. state reference: Florida",
+      "confidence": 1,
+      "metadata": {
+        "state": "Florida",
+        "context_window": "Environmental Protection Agency \nESD      Explanation of Significant Differences \nFAC      Florida Administrative Code \nFDEP      Florida Department of Environmental Protection \nFS       Feasibility Study \nFYR      Five-Year Review \nGCTL      Groundwater Cleanup Target Level \nHQ      Hazard Quotient",
+        "extraction_type": "ranked_contextual_state_match",
+        "signal_strength": "high",
+        "context_quality_score": 1
+      },
+      "created_at": "2026-05-13T02:20:52.806401+00:00"
+    },
+    {
+      "id": "2fd36e52-f9de-43d3-b811-42971c2b0b38",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "state_detection",
+      "value": "Detected U.S. state reference: Georgia",
+      "confidence": 1,
+      "metadata": {
+        "state": "Georgia",
+        "context_window": "The sites, located in Alabama, Florida, Georgia, North Carolina, South Carolina, and Tennessee, will undergo a \nlegally required Five-Year Review to ensure that previous remediation efforts at the sites continue to protect \npublic health and the environment.",
+        "extraction_type": "ranked_contextual_state_match",
+        "signal_strength": "high",
+        "context_quality_score": 1
+      },
+      "created_at": "2026-05-13T02:20:52.889751+00:00"
+    },
+    {
+      "id": "f723a902-a204-4803-b05d-80deaf5921f7",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "state_detection",
+      "value": "Detected U.S. state reference: Alabama",
+      "confidence": 1,
+      "metadata": {
+        "state": "Alabama",
+        "context_window": "The sites, located in Alabama, Florida, Georgia, North Carolina, South Carolina, and Tennessee, will undergo a \nlegally required Five-Year Review to ensure that previous remediation efforts at the sites continue to protect \npublic health and the environment.",
+        "extraction_type": "ranked_contextual_state_match",
+        "signal_strength": "high",
+        "context_quality_score": 1
+      },
+      "created_at": "2026-05-13T02:20:52.970189+00:00"
+    },
+    {
+      "id": "fac7afea-f489-4f13-ba15-7a8b41a2e2d3",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "state_detection",
+      "value": "Detected U.S. state reference: Tennessee",
+      "confidence": 1,
+      "metadata": {
+        "state": "Tennessee",
+        "context_window": "The sites, located in Alabama, Florida, Georgia, North Carolina, South Carolina, and Tennessee, will undergo a \nlegally required Five-Year Review to ensure that previous remediation efforts at the sites continue to protect \npublic health and the environment.",
+        "extraction_type": "ranked_contextual_state_match",
+        "signal_strength": "high",
+        "context_quality_score": 1
+      },
+      "created_at": "2026-05-13T02:20:53.056508+00:00"
+    },
+    {
+      "id": "31dea10b-b82d-41e8-8422-6ee12b0daa5d",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "state_detection",
+      "value": "Detected U.S. state reference: North Carolina",
+      "confidence": 1,
+      "metadata": {
+        "state": "North Carolina",
+        "context_window": "The sites, located in Alabama, Florida, Georgia, North Carolina, South Carolina, and Tennessee, will undergo a \nlegally required Five-Year Review to ensure that previous remediation efforts at the sites continue to protect \npublic health and the environment.",
+        "extraction_type": "ranked_contextual_state_match",
+        "signal_strength": "high",
+        "context_quality_score": 1
+      },
+      "created_at": "2026-05-13T02:20:53.20107+00:00"
+    },
+    {
+      "id": "c8950144-2693-48f3-a3ee-1100bca3136d",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "state_detection",
+      "value": "Detected U.S. state reference: South Carolina",
+      "confidence": 1,
+      "metadata": {
+        "state": "South Carolina",
+        "context_window": "The sites, located in Alabama, Florida, Georgia, North Carolina, South Carolina, and Tennessee, will undergo a \nlegally required Five-Year Review to ensure that previous remediation efforts at the sites continue to protect \npublic health and the environment.",
+        "extraction_type": "ranked_contextual_state_match",
+        "signal_strength": "high",
+        "context_quality_score": 1
+      },
+      "created_at": "2026-05-13T02:20:53.276341+00:00"
+    },
+    {
+      "id": "8cea6d57-d0b6-441d-af6d-c04b5aa6f046",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "contaminant_detection",
+      "value": "Detected contaminant reference: lead",
+      "confidence": 1,
+      "metadata": {
+        "contaminant": "lead",
+        "context_window": "(Tarpon Springs) Date of Inspection: 11/19/2024\nLocation and Region: Tarpon Springs, Florida, 4 \nEPA ID: FLD010596013 \nAgency, Office or Company Leading the Five-Year \nReview: The EPA \nWeather/Temperature: Warm and sunny \nRemedy Includes: (checkall that apply)\n Landfill cover/containment     Monitor",
+        "extraction_type": "ranked_contextual_contaminant_match",
+        "signal_strength": "high",
+        "context_quality_score": 1
+      },
+      "created_at": "2026-05-13T02:20:53.350251+00:00"
+    },
+    {
+      "id": "7ec66eab-6ea5-41f1-9809-23c3fee25fd7",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "contaminant_detection",
+      "value": "Detected contaminant reference: arsenic",
+      "confidence": 0.95,
+      "metadata": {
+        "contaminant": "arsenic",
+        "context_window": "MCL exceedances within the Floridan Aquifer during the July 2024 event consisted of \nradionuclides/ gross alpha at monitor wells MW-02F and MW-12-2, fluoride at monitor wells  \nMW-03-3F and MW-12-2, and arsenic at monitor wells MW-02F and MW-02-3F.",
+        "extraction_type": "ranked_contextual_contaminant_match",
+        "signal_strength": "high",
+        "context_quality_score": 0.9500000000000001
+      },
+      "created_at": "2026-05-13T02:20:53.424267+00:00"
+    },
+    {
+      "id": "21cf3912-18ad-4d29-a823-a3c2b9dc2dae",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "contaminant_detection",
+      "value": "Detected contaminant reference: pcb",
+      "confidence": 1,
+      "metadata": {
+        "contaminant": "pcb",
+        "context_window": "Alabama \nANNISTON ARMY DEPOT (SOUTHEAST INDUSTRIAL AREA) \nANNISTON PCB SITE (MONSANTO CO) \nTRIANA/TENNESSEE RIVER \nFlorida \nAGRICO CHEMICAL CO.",
+        "extraction_type": "ranked_contextual_contaminant_match",
+        "signal_strength": "high",
+        "context_quality_score": 1
+      },
+      "created_at": "2026-05-13T02:20:53.497731+00:00"
+    },
+    {
+      "id": "fa2c2fd9-9cee-49f9-acfd-3cf8a2e79a98",
+      "mission_id": "404cb430-cd0f-460b-b0e1-b729330776b2",
+      "artifact_id": "13f5813f-0bc1-4f5e-a03a-16c8f2787601",
+      "category": "contaminant_detection",
+      "value": "Detected contaminant reference: pesticide",
+      "confidence": 0.79,
+      "metadata": {
+        "contaminant": "pesticide",
+        "context_window": "Theremedial investigation (RI) found that \nvolatiles, semi-volatiles, pesticides, polychlorinated biphenyls (PCBs), metals, fluoride, phosphate, and \nradiological constituents were detected in various media including soil, groundwater, surface water, \nsediment, pond material and roadway material at ",
+        "extraction_type": "ranked_contextual_contaminant_match",
+        "signal_strength": "medium",
+        "context_quality_score": 0.7899999999999999
+      },
+      "created_at": "2026-05-13T02:20:53.575493+00:00"
+    }
+  ]
+}
